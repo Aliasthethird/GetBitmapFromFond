@@ -12,7 +12,8 @@ void setup()
 
 void loop()
 {
-  for(int i = 0; i < 10; i++)
+  // for(int i = -16; i < 79; i++) // entire font
+  for(int i = 0; i < 9; i++) // only numbers
   {
     char ch = i + 48; // ASCII code of '0' is 48
 
