@@ -4,8 +4,6 @@
 // How to use the font:
 // https://github.com/adafruit/Adafruit-GFX-Library/commit/80b1bc48cbaac8a33054383124db6d613cbde3c2
 // https://tchapi.github.io/Adafruit-GFX-Font-Customiser/
-//test
-
 
 void setup()
 {
@@ -23,22 +21,6 @@ void loop()
 
     // Access the glyph data
     GFXglyph glyph = FreeMonoBold24pt7bGlyphs[glyphIndex];
-
-    // // Print glyph data
-    // Serial.println("Glyph data:");
-    // Serial.print("Width: ");
-    // Serial.println(glyph.width);
-    // Serial.print("Height: ");
-    // Serial.println(glyph.height);
-    // Serial.print("xAdvance: ");
-    // Serial.println(glyph.xAdvance);
-    // Serial.print("xOffset: ");
-    // Serial.println(glyph.xOffset);
-    // Serial.print("yOffset: ");
-    // Serial.println(glyph.yOffset);
-
-    // // Print the bitmap data
-    // Serial.println("\nBitmap data:\n");
 
     // Calculate the bit value for each pixel
     for (int y = 0; y < glyph.height; y++)
